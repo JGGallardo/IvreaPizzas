@@ -17,7 +17,7 @@ let carrito = [];
 // Cargar productos desde JSON
 async function cargarProductosDesdeJSON() {
     try {
-        const response = await fetch("../data/productos.json");
+        const response = await fetch("./data/productos.json");
         const data = await response.json();
         productos = data.productos.map(
             (p) => new Producto(p.categoria, p.nombre, p.precio, p.ingredientes)
