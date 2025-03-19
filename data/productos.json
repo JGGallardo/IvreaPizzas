@@ -1,0 +1,119 @@
+{
+    "productos": [
+        {
+            "categoria": "Pizzas",
+            "nombre": "Margarita",
+            "precio": 10000,
+            "ingredientes": [
+                "Pomodoro",
+                "Mozzarella",
+                "Parmesano",
+                "Aceite de oliva",
+                "Albahaca fresca"
+            ]
+        },
+        {
+            "categoria": "Pizzas",
+            "nombre": "Parmegiana",
+            "precio": 10500,
+            "ingredientes": [
+                "Pomodoro",
+                "Mozzarella",
+                "Berenjenas asadas",
+                "Parmesano",
+                "Aceite de oliva",
+                "Albahaca fresca"
+            ]
+        },
+        {
+            "categoria": "Pizzas",
+            "nombre": "Napo Ivrea",
+            "precio": 11500,
+            "ingredientes": [
+                "Pomodoro",
+                "Parmesano",
+                "Mozzarella",
+                "Tomates secos hidratados en oliva",
+                "Pesto de albahaca"
+            ]
+        },
+        {
+            "categoria": "Pizzas",
+            "nombre": "Pepperoni y Miel Hot",
+            "precio": 12500,
+            "ingredientes": [
+                "Pomodoro",
+                "Mozzarella",
+                "Salame pepperoni",
+                "Parmesano",
+                "Miel con peperoncino",
+                "Albahaca fresca"
+            ]
+        },
+        {
+            "categoria": "Pizzas",
+            "nombre": "Cuatro Quesos",
+            "precio": 12500,
+            "ingredientes": [
+                "Pomodoro",
+                "Provoleta",
+                "Queso azul",
+                "Mozzarella",
+                "Parmesano",
+                "Albahaca fresca"
+            ]
+        },
+        {
+            "categoria": "Pizzas",
+            "nombre": "Papa y Panceta",
+            "precio": 13000,
+            "ingredientes": [
+                "Pomodoro",
+                "Queso dambo ahumado",
+                "Papas asadas",
+                "Panceta ahumada",
+                "Pimienta negra",
+                "Romero fresco"
+            ]
+        },
+        {
+            "categoria": "Pizzas",
+            "nombre": "Mortadella con Pistacho",
+            "precio": 13500,
+            "ingredientes": [
+                "Pomodoro",
+                "Parmesano",
+                "Mozzarella",
+                "Mortadella con pistacho",
+                "Pesto de albahaca"
+            ]
+        },
+        {
+            "categoria": "Pizzas",
+            "nombre": "Lomo Ahumado y Morrones",
+            "precio": 13500,
+            "ingredientes": [
+                "Pomodoro",
+                "Parmesano",
+                "Mozzarella",
+                "Lomito ahumado",
+                "Morrones asados",
+                "Aceitunas negras",
+                "Aceite de oliva"
+            ]
+        },
+        {
+            "categoria": "Pizzas",
+            "nombre": "Rúcula y Crudo",
+            "precio": 14000,
+            "ingredientes": [
+                "Pomodoro",
+                "Mozzarella",
+                "Rúcula fresca",
+                "Jamón crudo (12 meses de estac.)",
+                "Parmesano",
+                "Aceite de oliva"
+            ]
+        }
+    ]
+}

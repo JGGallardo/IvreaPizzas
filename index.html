@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Navbar 1</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap"
+            rel="stylesheet" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+            rel="stylesheet" />
+        <link href="./styles/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div id="notification" class="notification"></div>
+        <nav class="navbar">
+            <button onclick="toggleMenu()" class="burger"></button>
+
+            <div>
+                <img src="assets/img/image.png" alt="logo ivrea" />
+            </div>
+            <div class="dropdowns">
+                <div class="dropdown">
+                    <button class="button">
+                        <div class="carrito">
+                            <img
+                                src="assets/icons/cart4.svg"
+                                alt="icono de carrito"
+                                class="carrito" />
+                            <span class="contadorCarrito">0</span>
+                        </div>
+                    </button>
+                    <div class="dropdown-menu carrito-menu">
+                        <button class="btnVaciarCarrito">Vaciar Carrito</button>
+                        <div class="contenedor-carrito"></div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <main>
+            <h2>Pizzas</h2>
+            <div id="productos"></div>
+        </main>
+        <script>
+            const toggleMenu = () => document.body.classList.toggle("open");
+        </script>
+        <script type="module" src="scripts/script.js"></script>
+    </body>
+</html>
